@@ -9,7 +9,7 @@ menu.onclick = () => {
 
 window.onscroll = () => {
     menu.classList.remove('fa-times')
-    header.classList.toggle('active')
+    //header.classList.toggle('active')
 }
 
 let cursor1 = document.querySelector('.cursor-1')
