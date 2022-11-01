@@ -273,7 +273,17 @@ header .follow a:hover {
   gap: 1.5rem;
 }
 
-.work .box-container .box {
+.work .box-container .box1 {
+  flex: 1 1 40rem;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+  border: 1rem solid #fff;
+  background: #fff;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.work .box-container .box2 {
   flex: 1 1 30rem;
   height: 25rem;
   position: relative;
@@ -283,14 +293,14 @@ header .follow a:hover {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-.work .box-container .box img {
+.work .box-container .box1 img, .work .box-container .box2 img {
   height: 90%;
   width: 100%;
   object-fit: cover;
   border-radius: .5rem;
 }
 
-.work .box-container .box .hover-items {
+.work .box-container .box1 .hover-items, .work .box-container .box2 .hover-items {
   width: 100%;
   height: 100%;
   background-color: var(--main-color);
@@ -306,25 +316,25 @@ header .follow a:hover {
   transition: all .4s ease-in-out;
 }
 
-.work .box-container .box:hover .hover-items {
+.work .box-container .box1:hover .hover-items, .work .box-container .box2:hover .hover-items {
   opacity: 1;
   transform: scale(1);
 }
 
-.work .box-container .box .hover-items h3 {
+.work .box-container .box1 .hover-items h3, .work .box-container .box2 .hover-items h3 {
   font-size: 2.5rem;
   color: #333;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
 
-.work .box-container .box .hover-items .icons {
+.work .box-container .box1 .hover-items .icons, .work .box-container .box2 .hover-items .icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.work .box-container .box .hover-items .icons a {
+.work .box-container .box1 .hover-items .icons a, .work .box-container .box2 .hover-items .icons a {
   display: block;
   height: 4rem;
   width: 4rem;
